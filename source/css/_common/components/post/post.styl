@@ -1,12 +1,7 @@
 .post-body {
-  word-wrap();
   font-family: $font-family-posts;
-}
-
-.post-body span.exturl {
-  .fa {
-    font-size: 14px;
-    margin-left: 4px;
+  +mobile() {
+    word-break: break-word;
   }
 }
 
